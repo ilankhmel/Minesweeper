@@ -1,0 +1,86 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    border: 1px black solid;
+    border-spacing: 10px;
+    width: 300px;
+    height: 300px;
+    table-layout: fixed;
+    width: 100% ;
+}
+
+td{
+    border: 1px black solid; 
+    /* width: 30px;
+    height: 30px; */
+    text-align:center;
+    width: 100%
+}
+
+.cell{
+    background-color: gainsboro;
+    font-size: 23px;
+    width: 0px;
+    height: 30px;
+    
+}
+
+.open-cell{
+    background-color: azure;
+}
+
+.container1{
+    border: 1px black solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.reset-btn{
+    width: 30px;
+    height: 30px;
+    margin: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+    padding-right: 32px;
+    padding-bottom: 30px;
+    background-color: white;
+}
+
+.reset-btn:hover{
+    background-color: azure;
+}
+.lives {
+    width: 70px;
+    height: 30px;
+    border: 1px black solid;
+    background-color: black;
+    color: red;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 20px;
+}
+
+.timer{
+    width: 70px;
+    height: 30px;
+    border: 1px black solid;
+    background-color: black;
+    color: red;
+    text-align: center;
+    padding-left: 2px;
+    font-size: 20px;
+}
+
+.showingHint{
+    background-color: rgb(245, 245, 199);
+}
+
+.selected{
+    background-color: rgb(245, 245, 199);
+}
+
+
