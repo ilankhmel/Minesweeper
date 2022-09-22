@@ -1,19 +1,17 @@
 *{
     font-family: 'Press Start 2P';
-    max-width: 800px;
-    max-height: 800px;
+    color: white;
+    max-width: 900px;
+    max-height: 900px;
+    
     
 }
 
-body{
-    text-align: center;
-}
+
+
 .gameContainer{
-    display: block;
-    margin: auto;
-    background-color: #e1e1e1;
+    background-color: #000000;
     border: 4px black solid;
-    margin-left: 0px;
 }
 table {
     
@@ -32,15 +30,15 @@ button{
     background-color: aliceblue;
     font-size: 13px;
     margin: 10px;
-    background-color: #e1e1e1;
+    background-color: #464646;
     font-size: 20px;
     padding-bottom: 30px;
     height: 30px;
     cursor: pointer;
-    border-bottom: 2px solid #717171;
-    border-left: 2px solid #ffffff;
-    border-top: 2px solid #ffffff;
-    border-right: 2px solid #7c7b7b;
+    border-bottom: 2px solid #b7b1b1;
+    border-left: 2px solid #000000;
+    border-top: 2px solid #000000;
+    border-right: 2px solid #bebebe;
     
 }
 
@@ -54,7 +52,7 @@ td{
 }
 
 .cell{
-    background-color: #e1e1e1;
+    background-color: #464646;
     font-size: 23px;
     width: 0px;
     height: 30px;
@@ -105,8 +103,8 @@ td{
 .lives {
     width: 70px;
     height: 30px;
-    border: 1px black solid;
-    background-color: black;
+    border: 1px white solid;
+    background-color: #464646;
     color: red;
     text-align: center;
     padding-top: 12px;
@@ -118,8 +116,8 @@ td{
 .timer{
     width: 70px;
     height: 30px;
-    border: 1px black solid;
-    background-color: black;
+    border: 1px white solid;
+    background-color: #464646;
     color: red;
     text-align: center;
     padding-top: 12px;
@@ -172,8 +170,8 @@ td{
 .high-score{
     width: 70px;
     height: 30px;
-    border: 1px black solid;
-    background-color: black;
+    border: 1px white solid;
+    background-color: #464646;
     color: red;
     text-align: center;
     padding-top: 12px;
@@ -194,6 +192,7 @@ td{
     align-items: center;
     text-align: center;
 }
+
 
 .mega-hint{
     display: none;
