@@ -1,6 +1,6 @@
 *{
     font-family: 'Press Start 2P';
-    max-width: 800px;
+    max-width: 909px;
     max-height: 800px;
     
 }
@@ -196,5 +196,5 @@ td{
 }
 
 .mega-hint{
-    display: none;
+    display: inline;
 }
