@@ -1,4 +1,4 @@
-Simple minesweeper game!
+simple Minesweeper game - Github Pages link -  https://ilankhmel.github.io/Minesweeper/
 
 One of the first games I built useing Vanilla JS.
 
